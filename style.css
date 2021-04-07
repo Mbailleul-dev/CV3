@@ -100,7 +100,7 @@ header
 body
 {
     background-image: url(background.jpeg);
-    background-size: 500px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -204,7 +204,7 @@ table{
 body
 {
     background-image: url(background.jpeg);
-    background-size: 600px;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
