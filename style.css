@@ -54,10 +54,8 @@ p
 {
     background-color: transparent
     border: none;
-    width: 40%;
-    
+    width: 40%;   
 }
-
 table
 {
     border-collapse: collapse;
@@ -93,6 +91,7 @@ header
 {
     margin-top: 300px;
 }
+
 @media handheld vertical
 {
     *
@@ -102,7 +101,7 @@ header
 body
 {
     background-image: url(background.jpeg);
-    background-size:cover;
+    background-size: 768px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -115,11 +114,12 @@ h1
     text-align: center;
     color: orangered;
     margin-top:300px;
+    margin-left:1%;
 }
 #tete
 {
     text-align: center;
-    margin-top: 400px;
+    margin-top: 300px;
 }
 a
 {
@@ -149,7 +149,7 @@ p
 }
 .vide
 {
-    background-color: transparent
+    background-color: transparent;
     border: none;
     width: 40%;
     
@@ -180,7 +180,7 @@ p, h2
 header
 {
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 #tete p
 {
@@ -188,7 +188,11 @@ header
 }
 #tableau
 {
-    margin-top: 300px;
+    margin-top: 200px;
+}
+table{
+    margin-left: 10px;
+    margin-right:10px;
 }
 }
 @media handheld horizontal
@@ -200,7 +204,7 @@ header
 body
 {
     background-image: url(background.jpeg);
-    background-size:cover;
+    background-size: 1024px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
@@ -209,15 +213,15 @@ body
 }
 h1
 {
-    font-size: 3.2rem;;
+    font-size: 2.5rem;;
     text-align: center;
     color: orangered;
-    margin-top:300px;
+    margin-top:150px;
 }
 #tete
 {
     text-align: center;
-    margin-top: 400px;
+    margin-top: 300px;
 }
 a
 {
@@ -247,7 +251,7 @@ p
 }
 .vide
 {
-    background-color: transparent
+    background-color: transparent;
     border: none;
     width: 40%;
     
@@ -278,7 +282,7 @@ p, h2
 header
 {
     margin-bottom: 30px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 #tete p
 {
@@ -286,6 +290,10 @@ header
 }
 #tableau
 {
-    margin-top: 300px;
+    margin-top: 200px;
+}
+table{
+    margin-left: 10px;
+    margin-right:10px;
 }
 }
