@@ -91,7 +91,7 @@ header
 {
     margin-top: 300px;
 }
-@media all and (max-width :768px)
+@media hanheld and (max-width :768px)
 {
     *
 {
@@ -195,7 +195,7 @@ table{
     margin-right:10px;
 }
 }
-@media all and (max-width :1024px)
+@media handhel and (max-width :1024px)
 {
     *
 {
