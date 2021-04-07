@@ -92,7 +92,7 @@ header
     margin-top: 300px;
 }
 
-@media handheld vertical
+@media all and (max-width 768px)
 {
     *
 {
@@ -195,7 +195,7 @@ table{
     margin-right:10px;
 }
 }
-@media handheld horizontal
+@media all and (max-width :1024px)
 {
     *
 {
