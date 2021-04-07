@@ -112,13 +112,13 @@ h1
     font-size: 3.2rem;;
     text-align: center;
     color: orangered;
-    margin-top:200px;
-    margin-left:5%;
+    margin-top:100px;
+    margin-left:10%;
 }
 #tete
 {
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 5%;
 }
 a
@@ -196,7 +196,7 @@ table{
     margin-right:10px;
 }
 }
-@media handhel and (max-width :1024px)
+@media handheld and (max-width :1024px)
 {
     *
 {
